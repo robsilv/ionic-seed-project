@@ -74,7 +74,7 @@ gulp.task('html', function () {
 // Process images.
 gulp.task('img', function () {
 	return gulp.src(files.img.src)
-		.pipe(rename({dirname: ''}))
+		//.pipe(rename({dirname: ''}))
 		.pipe(gulp.dest(files.img.buildDest));
 });
 
